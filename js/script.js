@@ -7,6 +7,8 @@ button.addEventListener('click', function() {
 
 var paragraph = document.getElementById('joke');
 
+getJoke();
+
 function getJoke() {
  	var xhr = new XMLHttpRequest();
 	xhr.open('GET', url);	

@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
-$fonts: 'Open Sans', sans-serif;
+$font: 'Open Sans', sans-serif;
 $background: lightgreen;
 
 * {
@@ -8,12 +8,11 @@ $background: lightgreen;
 }
 body {
 	margin: 0;
-	font-family: $fonts;
+	font-family: $font;
 }
 .container {
 	width: 100%;
 	max-width: 1200px;
-	height: 100vh;
 	margin: 0 auto;
 	background-color: $background;
 	text-align: center;
